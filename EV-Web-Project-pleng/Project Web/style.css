@@ -1,11 +1,11 @@
 body {
   font-family: 'Quicksand', sans-serif !important;
 }
-  .navbar-toggler.d-lg-none {
+.navbar-toggler.d-lg-none {
     background-color: transparent !important;
     border: none;
     
-  }
+}
   
 .form-check-input:checked {
     background-color: #763DF2 !important;
@@ -84,12 +84,6 @@ body {
   width: 0%;
   left: 50%;
 }
-
-/* footer */
-.footer-image {
-  max-width: 150px!important;
-}
-
 .btn-block.btn-outline-primary {
   color: white;
   border-color: white;
@@ -103,17 +97,31 @@ body {
 }
 
 
-@keyframes gradient {
-	0% {
-		background-position: 20% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 20% 50%;
-	}
+/* footer */
+.footer-image {
+  max-width: 150px!important;
 }
 
-/* sign up */
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+
+footer li {
+  margin: 0 10px;
+  
+}
+footer .social-media-icon{
+  font-size: 20px;
+  color: #fff;
+}
+
+.footer-menu li a{
+ font-size: 12px;
+ color: #fff;
+ text-decoration: none;
+}
+
+
+
 
