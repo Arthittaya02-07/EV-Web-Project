@@ -227,7 +227,6 @@ span a, .copyright a{
     radial-gradient(circle, #683FBF 20%, transparent 20%),
     radial-gradient(circle, #1E2D59 20%, transparent 20%);
   background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
-  /* //background-position: 0% 80%, -5% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%, 50% 50%, 65% 20%, 85% 30%; */
   }
   
   &:after{
@@ -242,7 +241,6 @@ span a, .copyright a{
     radial-gradient(circle, #1E2D59 20%, transparent 20%),
     radial-gradient(circle, #763DF2 20%, transparent 20%);
   background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 10% 10%, 20% 20%;
-  /* //background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%, 40% 90%, 55% 90%, 70% 90%; */
   }
  
   &:active{
@@ -287,7 +285,24 @@ span a, .copyright a{
   background-size: 0% 0%, 0% 0%,  0% 0%,  0% 0%,  0% 0%,  0% 0%;
   }
 }
-
+.go-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border: none;
+  color: #E15CF2;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 25px;
+  padding: 10px;
+  z-index: 99;
+}
+.go-to-top  a{ 
+  color: #E15CF2;
+}
+.go-to-top :hover {
+ color: #9CF2F2;
+}
 
 
 
